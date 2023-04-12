@@ -24,8 +24,6 @@ namespace CardQuest
         int maxKaret = 2;
         bool[] otoceneKarty = {false, false, false, false};
 
-        Karta karta = new Karta();
-
         public Game()
         {
             InitializeComponent();
