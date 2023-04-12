@@ -53,6 +53,7 @@
       <DependentUpon>Game.cs</DependentUpon>
     </Compile>
     <Compile Include="Helpers\Cards.cs" />
+    <Compile Include="Helpers\Karta.cs" />
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>

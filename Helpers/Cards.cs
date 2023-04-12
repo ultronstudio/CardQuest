@@ -9,7 +9,7 @@ namespace CardQuest.Helpers
 {
     public class Cards
     {
-        public static void ShuffleArray(PictureBox[] arr)
+        public static void ShuffleArray(Button[] arr)
         {
             int arrayLength = arr.Length;
             Random random = new Random();
@@ -20,9 +20,9 @@ namespace CardQuest.Helpers
             }
         }
 
-        public static void SwapArray(PictureBox[] arr, int a, int b)
+        public static void SwapArray(Button[] arr, int a, int b)
         {
-            PictureBox temp = arr[a];
+            Button temp = arr[a];
             arr[a] = arr[b];
             arr[b] = temp;
         }
