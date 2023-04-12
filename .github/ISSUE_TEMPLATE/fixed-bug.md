@@ -1,13 +1,11 @@
 ---
-name: Bug fixed
+name: Fixed bug
 about: Some bug has been fixed
-title: "[BUG]"
+title: "[FIXED BUG]"
 labels: bug
 assignees: ''
 
 ---
 
 Bugs that have been fixed:
-* bug 1
-* bug 2
-* bug N
+* describe what is fixed
