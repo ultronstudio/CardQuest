@@ -117,5 +117,8 @@
   <ItemGroup>
     <None Include="Resources\Cards\tile4.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Cards\deck-top.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

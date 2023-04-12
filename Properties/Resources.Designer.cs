@@ -101,6 +101,16 @@ namespace CardQuest.Properties {
         }
         
         /// <summary>
+        ///   Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap deck_top {
+            get {
+                object obj = ResourceManager.GetObject("deck_top", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Vyhledává lokalizovaný prostředek typu System.IO.UnmanagedMemoryStream podobný System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream mouse_click {

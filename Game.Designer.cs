@@ -46,12 +46,19 @@
             // 
             // btnDisplayCards
             // 
-            this.btnDisplayCards.Location = new System.Drawing.Point(12, 415);
+            this.btnDisplayCards.AutoSize = true;
+            this.btnDisplayCards.BackColor = System.Drawing.Color.Transparent;
+            this.btnDisplayCards.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDisplayCards.FlatAppearance.BorderSize = 0;
+            this.btnDisplayCards.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnDisplayCards.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnDisplayCards.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDisplayCards.Image = global::CardQuest.Properties.Resources.deck_top;
+            this.btnDisplayCards.Location = new System.Drawing.Point(673, 98);
             this.btnDisplayCards.Name = "btnDisplayCards";
-            this.btnDisplayCards.Size = new System.Drawing.Size(75, 23);
+            this.btnDisplayCards.Size = new System.Drawing.Size(115, 158);
             this.btnDisplayCards.TabIndex = 1;
-            this.btnDisplayCards.Text = "Ukaž karty";
-            this.btnDisplayCards.UseVisualStyleBackColor = true;
+            this.btnDisplayCards.UseVisualStyleBackColor = false;
             this.btnDisplayCards.Click += new System.EventHandler(this.btnDisplayCards_Click);
             // 
             // Game
@@ -72,6 +79,7 @@
             this.Text = "Game";
             ((System.ComponentModel.ISupportInitialize)(this.pboxCards)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 

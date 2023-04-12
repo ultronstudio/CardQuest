@@ -7,9 +7,11 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace CardQuest
 {
@@ -29,7 +31,10 @@ namespace CardQuest
 
         private void btnDisplayCards_Click(object sender, EventArgs e)
         {
-            if(kartyZobrazeny == false)
+            SoundPlayer player = new SoundPlayer(Resources.mouse_click);
+            player.Play();
+
+            if (kartyZobrazeny == false)
             {
                 CreateCard();
                 DisplayControls();
@@ -59,7 +64,7 @@ namespace CardQuest
 
         private PictureBox SizeImage(PictureBox pictureBox, int i)
         {
-            Image image = Image.FromFile($"{cardsImagePath}\\tile{i}.png");
+            System.Drawing.Image image = System.Drawing.Image.FromFile($"{cardsImagePath}\\tile{i}.png");
             pictureBox.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox.Image = image;
 
