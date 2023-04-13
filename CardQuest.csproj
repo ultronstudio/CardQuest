@@ -52,6 +52,7 @@
     <Compile Include="Game.Designer.cs">
       <DependentUpon>Game.cs</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\Alert.cs" />
     <Compile Include="Helpers\Cards.cs" />
     <Compile Include="Helpers\Karta.cs" />
     <Compile Include="Main.cs">
@@ -120,6 +121,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Cards\deck-top.png" />
+    <Content Include="Resources\Cards\tile13.png" />
+    <Content Include="Resources\Cards\tile14.png" />
+    <Content Include="Resources\Cards\tile15.png" />
+    <Content Include="Resources\Cards\tile16.png" />
+    <Content Include="Resources\Cards\tile9.png" />
+    <Content Include="Resources\Cards\tile10.png" />
+    <Content Include="Resources\Cards\tile11.png" />
+    <Content Include="Resources\Cards\tile12.png" />
+    <Content Include="Resources\Cards\tile5.png" />
+    <Content Include="Resources\Cards\tile6.png" />
+    <Content Include="Resources\Cards\tile7.png" />
+    <Content Include="Resources\Cards\tile8.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
